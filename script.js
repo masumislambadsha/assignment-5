@@ -12,7 +12,6 @@ function favCount(id){
   document.getElementById(id).addEventListener('click', function(){
   let count = getInnerTextValue('fav-count')
   let newCount = count + 1
-  newCount =newCount , `<i class="fa-solid fa-heart" style="color: #ff0000"></i>`
   document.getElementById('fav-count').innerText = newCount
 })
 }
@@ -30,29 +29,56 @@ favCount('fav-btn9')
 // function to show alert from call
 document.getElementById('call1').addEventListener('click', function(){
   alert('📞Calling National Emergency Service 999...')
+  let coin =getInnerTextValue('coin')
+  let newCoinValue = coin - 20
+  document.getElementById('coin').innerText = newCoinValue
 })
 document.getElementById('call2').addEventListener('click', function(){
   alert('📞Calling Police 999...')
+  let coin =getInnerTextValue('coin')
+  let newCoinValue = coin - 20
+  document.getElementById('coin').innerText = newCoinValue
 })
 document.getElementById('call3').addEventListener('click', function(){
   alert('📞Calling Fire Service 999...')
+    let coin =getInnerTextValue('coin')
+  let newCoinValue = coin - 20
+  document.getElementById('coin').innerText = newCoinValue
 })
 document.getElementById('call4').addEventListener('click', function(){
   alert('📞Calling Ambulance 1994-999999...')
+    let coin =getInnerTextValue('coin')
+  let newCoinValue = coin - 20
+  document.getElementById('coin').innerText = newCoinValue
 })
 document.getElementById('call5').addEventListener('click', function(){
   alert('📞Calling Women & Child Helpline 109...')
+    let coin =getInnerTextValue('coin')
+  let newCoinValue = coin - 20
+  document.getElementById('coin').innerText = newCoinValue
 })
 document.getElementById('call6').addEventListener('click', function(){
   alert('📞Calling Anti-Corruption 106...')
+    let coin =getInnerTextValue('coin')
+  let newCoinValue = coin - 20
+  document.getElementById('coin').innerText = newCoinValue
 })
 document.getElementById('call7').addEventListener('click', function(){
   alert('📞Calling Electricity Outage 16216...')
+    let coin =getInnerTextValue('coin')
+  let newCoinValue = coin - 20
+  document.getElementById('coin').innerText = newCoinValue
 })
 document.getElementById('call8').addEventListener('click', function(){
   alert('📞Calling Brac 16445...')
+    let coin =getInnerTextValue('coin')
+  let newCoinValue = coin - 20
+  document.getElementById('coin').innerText = newCoinValue
 })
 document.getElementById('call9').addEventListener('click', function(){
   alert('📞Calling Bangladesh Railway 163...')
+    let coin =getInnerTextValue('coin')
+  let newCoinValue = coin - 20
+  document.getElementById('coin').innerText = newCoinValue
 })
 
