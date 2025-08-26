@@ -32,6 +32,27 @@ document.getElementById('call1').addEventListener('click', function(){
   alert('📞Calling National Emergency Service 999...')
 })
 document.getElementById('call2').addEventListener('click', function(){
-  alert('📞CallingPolice 999...')
+  alert('📞Calling Police 999...')
+})
+document.getElementById('call3').addEventListener('click', function(){
+  alert('📞Calling Fire Service 999...')
+})
+document.getElementById('call4').addEventListener('click', function(){
+  alert('📞Calling Ambulance 1994-999999...')
+})
+document.getElementById('call5').addEventListener('click', function(){
+  alert('📞Calling Women & Child Helpline 109...')
+})
+document.getElementById('call6').addEventListener('click', function(){
+  alert('📞Calling Anti-Corruption 106...')
+})
+document.getElementById('call7').addEventListener('click', function(){
+  alert('📞Calling Electricity Outage 16216...')
+})
+document.getElementById('call8').addEventListener('click', function(){
+  alert('📞Calling Brac 16445...')
+})
+document.getElementById('call9').addEventListener('click', function(){
+  alert('📞Calling Bangladesh Railway 163...')
 })
 
