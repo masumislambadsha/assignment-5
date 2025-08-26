@@ -28,56 +28,93 @@ favCount('fav-btn9')
 
 // function to show alert from call
 document.getElementById('call1').addEventListener('click', function(){
-  alert('📞Calling National Emergency Service 999...')
   let coin =getInnerTextValue('coin')
+  if(coin <= 0){
+    alert('insufficient Coin 🪙')
+    return
+  }
+  alert('📞Calling National Emergency Service 999...')
   let newCoinValue = coin - 20
   document.getElementById('coin').innerText = newCoinValue
 })
 document.getElementById('call2').addEventListener('click', function(){
-  alert('📞Calling Police 999...')
   let coin =getInnerTextValue('coin')
+  if(coin <= 0){
+    alert('insufficient Coin 🪙')
+    return
+  }
+  alert('📞Calling Police 999...')
   let newCoinValue = coin - 20
   document.getElementById('coin').innerText = newCoinValue
 })
 document.getElementById('call3').addEventListener('click', function(){
+   let coin =getInnerTextValue('coin')
+   if(coin <= 0){
+    alert('insufficient Coin 🪙')
+    return
+  }
   alert('📞Calling Fire Service 999...')
-    let coin =getInnerTextValue('coin')
+
   let newCoinValue = coin - 20
   document.getElementById('coin').innerText = newCoinValue
 })
 document.getElementById('call4').addEventListener('click', function(){
+  let coin =getInnerTextValue('coin')
+   if(coin <= 0){
+    alert('insufficient Coin 🪙')
+    return
+  }
   alert('📞Calling Ambulance 1994-999999...')
-    let coin =getInnerTextValue('coin')
   let newCoinValue = coin - 20
   document.getElementById('coin').innerText = newCoinValue
 })
 document.getElementById('call5').addEventListener('click', function(){
+  let coin =getInnerTextValue('coin')
+   if(coin <= 0){
+    alert('insufficient Coin 🪙')
+    return
+  }
   alert('📞Calling Women & Child Helpline 109...')
-    let coin =getInnerTextValue('coin')
   let newCoinValue = coin - 20
   document.getElementById('coin').innerText = newCoinValue
 })
 document.getElementById('call6').addEventListener('click', function(){
+  let coin =getInnerTextValue('coin')
+   if(coin <= 0){
+    alert('insufficient Coin 🪙')
+    return
+  }
   alert('📞Calling Anti-Corruption 106...')
-    let coin =getInnerTextValue('coin')
   let newCoinValue = coin - 20
   document.getElementById('coin').innerText = newCoinValue
 })
 document.getElementById('call7').addEventListener('click', function(){
+  let coin =getInnerTextValue('coin')
+   if(coin <= 0){
+    alert('insufficient Coin 🪙')
+    return
+  }
   alert('📞Calling Electricity Outage 16216...')
-    let coin =getInnerTextValue('coin')
   let newCoinValue = coin - 20
   document.getElementById('coin').innerText = newCoinValue
 })
 document.getElementById('call8').addEventListener('click', function(){
+  let coin =getInnerTextValue('coin')
+   if(coin <= 0){
+    alert('insufficient Coin 🪙')
+    return
+  }
   alert('📞Calling Brac 16445...')
-    let coin =getInnerTextValue('coin')
   let newCoinValue = coin - 20
   document.getElementById('coin').innerText = newCoinValue
 })
 document.getElementById('call9').addEventListener('click', function(){
+  let coin =getInnerTextValue('coin')
+   if(coin <= 0){
+    alert('insufficient Coin 🪙')
+    return
+  }
   alert('📞Calling Bangladesh Railway 163...')
-    let coin =getInnerTextValue('coin')
   let newCoinValue = coin - 20
   document.getElementById('coin').innerText = newCoinValue
 })
