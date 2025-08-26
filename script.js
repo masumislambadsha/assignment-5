@@ -7,6 +7,7 @@ function getInnerTextValue (id){
   const value =  parseInt(document.getElementById(id).innerText)
   return value
 }
+// function to increase favNum
 function favCount(id){
   document.getElementById(id).addEventListener('click', function(){
   let count = getInnerTextValue('fav-count')
@@ -25,4 +26,12 @@ favCount('fav-btn7')
 favCount('fav-btn8')
 favCount('fav-btn9')
 
+
+// function to show alert from call
+document.getElementById('call1').addEventListener('click', function(){
+  alert('📞Calling National Emergency Service 999...')
+})
+document.getElementById('call2').addEventListener('click', function(){
+  alert('📞CallingPolice 999...')
+})
 
