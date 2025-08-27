@@ -189,21 +189,25 @@ function updateHistory() {
   const container = document.getElementById("history-container");
   container.innerHTML = "";
 
-  historyData.forEach((item) => {
+  for (const item of historyData) {
     const div = document.createElement("div");
     div.className = "flex justify-between items-center p-3 m-2 rounded-lg";
+
     const left = document.createElement("div");
     left.innerHTML = `
       <h3 class="font-bold text-[16px] dark-1">${item.name}</h3>
       <p class="text-[14px] gray">${item.number}</p>
     `;
+
     const right = document.createElement("div");
     right.innerHTML = `<p class="text-[14px] opacity-70">${item.date}</p>`;
+
     div.appendChild(left);
     div.appendChild(right);
     container.appendChild(div);
-  });
+  }
 }
+
 
 // clear history
 document.getElementById("clearBtn").addEventListener("click", function () {
