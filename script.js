@@ -214,7 +214,7 @@ document.getElementById("clearBtn").addEventListener("click", function () {
 
 function copyCount(id) {
   document.getElementById(id).addEventListener("click", function () {
-    // alert("copy count increased");
+    alert("copy count increased");
     let count = parseInt(document.getElementById("copyCount").innerText);
     let newCount = count + 1 + "  copy";
     document.getElementById("copyCount").innerText = newCount;
