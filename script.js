@@ -31,7 +31,7 @@ favCount("fav-btn9");
 document.getElementById("call1").addEventListener("click", function () {
   let coin = getInnerTextValue("coin");
   if (coin <= 0) {
-    alert("insufficient Coin 🪙");
+    alert("Insufficient Coin 🪙");
     return;
   }
   alert("📞Calling National Emergency Service 999...");
@@ -49,7 +49,7 @@ document.getElementById("call1").addEventListener("click", function () {
 document.getElementById("call2").addEventListener("click", function () {
   let coin = getInnerTextValue("coin");
   if (coin <= 0) {
-    alert("insufficient Coin 🪙");
+    alert("Insufficient Coin 🪙");
     return;
   }
   alert("📞Calling Police 999...");
@@ -66,7 +66,7 @@ document.getElementById("call2").addEventListener("click", function () {
 document.getElementById("call3").addEventListener("click", function () {
   let coin = getInnerTextValue("coin");
   if (coin <= 0) {
-    alert("insufficient Coin 🪙");
+    alert("Insufficient Coin 🪙");
     return;
   }
   alert("📞Calling Fire Service 999...");
@@ -84,7 +84,7 @@ document.getElementById("call3").addEventListener("click", function () {
 document.getElementById("call4").addEventListener("click", function () {
   let coin = getInnerTextValue("coin");
   if (coin <= 0) {
-    alert("insufficient Coin 🪙");
+    alert("Insufficient Coin 🪙");
     return;
   }
   alert("📞Calling Ambulance 1994-999999...");
@@ -101,7 +101,7 @@ document.getElementById("call4").addEventListener("click", function () {
 document.getElementById("call5").addEventListener("click", function () {
   let coin = getInnerTextValue("coin");
   if (coin <= 0) {
-    alert("insufficient Coin 🪙");
+    alert("Insufficient Coin 🪙");
     return;
   }
   alert("📞Calling Women & Child Helpline 109...");
@@ -118,7 +118,7 @@ document.getElementById("call5").addEventListener("click", function () {
 document.getElementById("call6").addEventListener("click", function () {
   let coin = getInnerTextValue("coin");
   if (coin <= 0) {
-    alert("insufficient Coin 🪙");
+    alert("Insufficient Coin 🪙");
     return;
   }
   alert("📞Calling Anti-Corruption 106...");
@@ -135,7 +135,7 @@ document.getElementById("call6").addEventListener("click", function () {
 document.getElementById("call7").addEventListener("click", function () {
   let coin = getInnerTextValue("coin");
   if (coin <= 0) {
-    alert("insufficient Coin 🪙");
+    alert("Insufficient Coin 🪙");
     return;
   }
   alert("📞Calling Electricity Outage 16216...");
@@ -152,7 +152,7 @@ document.getElementById("call7").addEventListener("click", function () {
 document.getElementById("call8").addEventListener("click", function () {
   let coin = getInnerTextValue("coin");
   if (coin <= 0) {
-    alert("insufficient Coin 🪙");
+    alert("Insufficient Coin 🪙");
     return;
   }
   alert("📞Calling Brac 16445...");
@@ -169,7 +169,7 @@ document.getElementById("call8").addEventListener("click", function () {
 document.getElementById("call9").addEventListener("click", function () {
   let coin = getInnerTextValue("coin");
   if (coin <= 0) {
-    alert("insufficient Coin 🪙");
+    alert("Insufficient Coin 🪙");
     return;
   }
   alert("📞Calling Bangladesh Railway 163...");
@@ -235,22 +235,20 @@ copyCount("copyBtn8")
 copyCount("copyBtn9");
 
 // copy number
-function enableCopy(btnId, numberText) {
+function copyNumber(btnId, numberText) {
   document.getElementById(btnId).addEventListener("click", function () {
     navigator.clipboard.writeText(numberText).then(function () {
 
-    }).catch(function (err) {
-      console.error("Failed to copy: ", err);
-    });
+    })
   });
 }
-enableCopy("copyBtn1", "999");
-enableCopy("copyBtn2", "999");
-enableCopy("copyBtn3", "999");
-enableCopy("copyBtn4", "1994-999999");
-enableCopy("copyBtn5", "109");
-enableCopy("copyBtn6", "106");
-enableCopy("copyBtn7", "16216");
-enableCopy("copyBtn8", "16445");
-enableCopy("copyBtn9", "163");
+copyNumber("copyBtn1", "999");
+copyNumber("copyBtn2", "999");
+copyNumber("copyBtn3", "999");
+copyNumber("copyBtn4", "1994-999999");
+copyNumber("copyBtn5", "109");
+copyNumber("copyBtn6", "106");
+copyNumber("copyBtn7", "16216");
+copyNumber("copyBtn8", "16445");
+copyNumber("copyBtn9", "163");
 

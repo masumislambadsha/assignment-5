@@ -21,5 +21,5 @@ ans:when we use any eventListener to child element,
 that event bubbles up the dom tree. This means the event is also received by the other parent
 5. What is the difference between **preventDefault() and stopPropagation()** methods?
 ans:preventDefault is used for stopping refresh in a button in a form tag.
-stopPropagation-stops propagating 
+stopPropagation-stops from bubbling
 
