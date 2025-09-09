@@ -211,7 +211,9 @@ function updateHistory() {
 
 // clear history
 document.getElementById("clearBtn").addEventListener("click", function () {
-  document.getElementById("history-container").innerText = "";
+  document.getElementById("history-container").innerHTML = ''
+  historyData.length = 0
+  updateHistory()
 });
 
 //copy count increase
